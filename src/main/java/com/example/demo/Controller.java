@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo;
 
 import java.util.List;
 
@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.example.demo.ToDo;
-import com.example.demo.repository;
-import com.example.demo.service;
 
 
 @RestController
