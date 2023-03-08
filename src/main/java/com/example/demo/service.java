@@ -13,4 +13,8 @@ public class service {
 		rep1.deleteById(id);
 		return "Deleted";
 	}
+	public String updatet(ToDo up) {
+		rep1.save(up);
+		return "updated";
+	}
 }
